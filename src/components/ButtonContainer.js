@@ -43,7 +43,7 @@ const ButtonContainer = () => {
       // abour logic
       abortController.current = new AbortController();
       let signal = abortController.current.signal;
-      // const res = await axios.get('https://httpbin.org/status/400');
+      // const res = await axios.get('https://httpbin.org/status/400', { signal });
       const res = await axios.get('https://httpbin.org/delay/4', { signal });
 
       //! saved origin in local storage when new origin comes from api
