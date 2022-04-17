@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.checkboxLabel{
+  font-size: 25px;
+  margin:20px;
+}
+.main-App{
+  margin-top: 30px;
+}

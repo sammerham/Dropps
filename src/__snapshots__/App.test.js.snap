@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It matches snapshot 1`] = `
+<div>
+  <div
+    class="main-App"
+  >
+    <label
+      class="checkboxLabel"
+      for="checkbox"
+    >
+      Render button
+    </label>
+    <input
+      checked=""
+      class="checked"
+      id="checkbox"
+      name="checkbox"
+      type="checkbox"
+    />
+    <div>
+      <button
+        class="buttonContainer-btn"
+      >
+        Click Me
+      </button>
+      <button
+        class="buttonContainer-btn"
+        disabled=""
+      >
+        Cancel
+      </button>
+      <br />
+      <div
+        class="buttonContainer-div"
+      >
+        Renders: 
+        <span
+          class="buttonContainer-span"
+        >
+           
+          1
+        </span>
+        <br />
+        <br />
+        Origin:
+        <span
+          class="buttonContainer-span"
+        >
+           
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

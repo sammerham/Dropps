@@ -1,0 +1,17 @@
+.buttonContainer-btn{
+    height:50px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: lightyellow;
+    border-color: gray;
+}
+
+
+.buttonContainer-div {
+  margin-left:20px;
+  font-size:18px;
+}
+
+.buttonContainer-span{
+  color:red;
+}
