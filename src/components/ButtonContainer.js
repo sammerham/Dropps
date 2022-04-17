@@ -87,7 +87,6 @@ const ButtonContainer = () => {
       </button>
       <button
         disabled={!loading}
-        attribute={!loading}
         onClick={handleCacel}
         className="buttonContainer-btn"
       >
